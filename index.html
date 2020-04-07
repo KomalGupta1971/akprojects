@@ -1,74 +1,108 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Codeck</title>
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
-    <div class="header">
-      <div class="header-logo">Codeck</div>
+<html lang="en" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <title>KOMAL</title>
+  <link rel="stylesheet" href="css1/style.css">
+  <link rel="icon" href="favicon.ico">
+ </head>
+<body>
+
+  <div class="header">
+      <div class="header-logo"><img  class="teddy" src="https://static.thenounproject.com/png/5373-200.png">Project</div>
       <div class="header-list">
-        <ul>
-          <li>About</li>
-          <li>Lessons</li>
-          <li>Contact us</li>
-        </ul>
+          <ul>
+            <li>About</li>
+            <li>Skills</li>
+            <li>Contact us</li>
+          </ul>
       </div>
+  </div
+
+  <div class="img"></div>
+
+  <div class="top-container">
+      <h1> WELCOME </h1>
+  </div>
+
+  <div class="middle-container">
+
+    <div class="profile">
+      <img class="girl " src="C:\Users\HP\Documents\atom project1/images profile.png" alt="profile">
+      <h2>Komal Gupta</h2>
+      <p>Hey everyone, here is my new website. Just take a look.</p>
     </div>
 
-    <div class="main">
-      <div class="copy-container">
-        <h1>HELLO WORLD<span>.</span></h1>
-        <h2>Let's learn to code</h2>
+    <div class="skills">
+
+      <div class="skill-row">
+        <img class="program" src="C:\Users\HP\Documents\atom project1/images.png" alt="program">
+        <h3>PROGRAMMING</h3>
+        <p>Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer "languages," such as SQL, Java, Python, Html , and C++. </p>
+     </div>
+
+      <div class="skill-row">
+        <img class="html" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJPKraxuIbbxdMkYTkzqUFcmuaSoHyH_xXb6eqYAYOvh43JvWN&usqp=CAU" alt="html">
+        <h3>HTML</h3>
+        <p>First developed by Tim Berners-Lee in 1990, HTML is short for Hypertext Markup Language. HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web. Each page contains a series of connections to other pages called hyperlinks.</p>
       </div>
 
-      <div class="contents">
-        <h3 class="section-title">Lessons</h3>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
-          <p>HTML & CSS</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
-          <p>PHP</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
-          <p>Ruby</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
-          <p>Swift</p>
-        </div>
+      <hr>
+
+      <div class="skill-row">
+        <img class="css" src="https://allprowebdesigns.com/blog/wp-content/uploads/2020/01/css-art.jpg" alt="css">
+        <h3>CSS</h3>
+        <p>CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. </p>
       </div>
 
-      <div class="contact-form">
-        <h3 class="section-title">Contact us</h3>
-        <p>Email (Required)</p>
-        <!-- Add an <input> tag -->
-        <input>
+      <hr>
 
-        <p>Message (Required)</p>
-        <!-- Add a <textarea> tag -->
-        <textarea></textarea>
-
-        <p>* Required fields must be filled</p>
-        <!-- Add an <input> tag -->
-        <input class="contact-submit" type="submit" value="Send">
-
+      <div class="skill-row">
+        <img class="javascript" src="https://st.quantrimang.com/photos/image/2018/07/30/tu-khoa-void-trong-javascript-200.jpg" alt="javascript">
+        <h3>JAVASCRIPT</h3>
+        <p>JavaScript is a client scripting language which is used for creating web pages. It is a standalone language developed in Netscape. It is used when a webpage is to be made dynamic and add special effects on pages like rollover, roll out and many types of graphics. In the given example, select any colour.</p>
       </div>
+
+      <hr>
+
+     <div class="skill-row">
+        <h1 class="guess">Guess the colour!</h1>
+        <h2 id="colourValue"></h2>
+        <div class="button"  id="buttonWrapper">
+           <button class="colourButton"></button>
+           <button class="colourButton"></button>
+           <button class="colourButton"></button>
+           <button class="colourButton"></button>
+           <button class="colourButton"></button>
+           <button class="colourButton"></button>
+       </div>
+       <h2 id="answer"></h2>
+
+       <div  class="reset" id="reset"><button id="resetButton">Reset game</button></div>
+
+       <script src="javascript.js"></script>
+     </div>
     </div>
+  </div>
 
-    <div class="footer">
-      <div class="footer-logo">Codeck</div>
-      <div class="footer-list">
-        <ul>
-          <li>About</li>
-          <li>Jobs</li>
-          <li>Contact us</li>
-        </ul>
+
+
+
+  <div class="bottom-container">
+      <h3>Get In Touch</h3>
+      <h3> By below given link</h3>
+      <div class="contact-me">
+          <a class="myButton" href="mailto:sdka1971@gmail.com">CONTACT ME</a>
       </div>
-    </div>
-  </body>
+      <div class="contact">
+      <p>You can also follow me on -></p>
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://instagram.com/">Instagram</a>
+   </div>
+</div>
+
+
+
+</body>
 </html>
